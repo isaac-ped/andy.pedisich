@@ -1,0 +1,113 @@
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  font-weight:200;
+
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+
+h1 {
+    font-weight: 400;
+}
+h2 {
+    font-weight: 300;
+}
+h3 {
+    font-weight: 200;
+}
+
+a {
+    color:black;
+}
+
+div#home {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#greeting {
+  border:0px;
+  width:250px;
+  text-align: center;
+}
+
+#titlebar {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#titlebar a {
+    font-size:large;
+    font-weight: 100;
+    text-decoration: none;
+    margin-right:20px;
+}
+#titlebar a:hover {
+    font-weight:200;
+}
+
+#titlebar a#home {
+    font-weight: 300;
+}
+
+#titlebar a#home:hover {
+    font-weight: 400;
+}
+
+div.lyrics {
+    text-align: center;
+    font-style: italic;
+    font-weight:200;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#content {
+    margin-top:1em;
+}
+
+#content p{
+    margin-left:2em;
+    margin-right:2em;
+    /* text-indent:2em */
+}
+#content li{
+    margin-left:1em;
+    margin-top:.5em
+}
+div.quote {
+    font-weight:100;
+    margin-left:3em;
+}
+
+#eulogy {
+    max-width:90%;
+    width:50em
+}
+#eulogy p{
+    margin-top:.5em;
+    margin-bottom:.5em;
+}
+p.quote {
+    border-left:solid 1px;
+    padding-left:1em
+
+}
+.spotlight img {
+    height: 10em;
+    margin-left:1em;
+    padding-left:1em;
+    border-left:solid 1px;
+    margin-bottom:1em
+}
+
+#art {
+    display:flex;
+    flex-wrap: wrap;
+    max-width:90%;
+    min-width:0;
+}
