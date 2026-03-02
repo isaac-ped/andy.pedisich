@@ -23,6 +23,12 @@ h3 {
 a {
     color:black;
 }
+#greeting a {
+    text-decoration: none;
+}
+#greeting a:hover {
+    font-weight:400;
+}
 
 div#home {
   display:flex;
@@ -82,11 +88,6 @@ div.lyrics {
 div.quote {
     font-weight:100;
     margin-left:3em;
-}
-
-#eulogy {
-    max-width:90%;
-    width:50em
 }
 #eulogy p{
     margin-top:.5em;
